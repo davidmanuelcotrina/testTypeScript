@@ -13,6 +13,10 @@ const book: Book = {
     author: 'dominicode'
 };
 
+const myName= (valor : string): string=>{
+    return `hola como estas ${valor}`;
+}
+
 const books:Book[]=[];
 
 
